@@ -59,14 +59,12 @@ window.onload=function(){
             	   // console.log(i);
                 alis[i].onmouseover=function(){
                 	let bl=this.getElementsByClassName('item');
-                	console.log(bl[0]);
                 	bl[0].classList.toggle('xianshi');
                 	
                 }
 
                 alis[i].onmouseout=function(){
                 	let bl=this.getElementsByClassName('item');
-                	console.log(bl[0]);
                 	bl[0].classList.toggle('xianshi');
                 	  
                 	
