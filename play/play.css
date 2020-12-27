@@ -23,6 +23,7 @@ main{
 	height:500px;
 	/* background: #fff; */
 	margin: 0 auto;
+	padding-top: 40px;
 }
 .song{
 	width: 100%;
@@ -60,13 +61,16 @@ ul>li{
 	position: absolute;
 	left:50%;
 	margin-left: -550px;	
-	bottom:10px;
+	bottom:40px;
 }
 .bottom>.left{
 	width: 230px;
 	height: 100%;
 	float: left;
 	/* background: red;	 */
+}
+.left>div:not(:first-child){
+	cursor: pointer;
 }
 .bottom>.mid{
 	width:570px;

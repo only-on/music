@@ -19,6 +19,7 @@ window.onload=function(){
 	let song1=document.querySelector('.song1');
 	let sc=document.querySelector('.icon-aixin1');
 	let flag=true;
+	let i= window.location.search ? window.location.search.slice(-1) - 0 : 0;
 	sc.onclick=function(){
 		if(flag){
 			sc.style.color='red';
@@ -40,7 +41,6 @@ window.onload=function(){
 			pause.classList.add('icon-zanting2');
 		}			
 	}
-	let i=0;
 	let state=0;
 	//上一首
 	pre.onclick=function(){
