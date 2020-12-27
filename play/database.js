@@ -332,7 +332,7 @@ var database = [
         name: "陈奕迅",
         src: "music/陪你度过漫长岁月.mp3",
         alltime: "03:46",
-        photo: "images/6.jpg",
+        photo: "../img/r7.jpg",
         lyrics:[
             {time: "00:00", lyric: "陪你度过漫长岁月"},
             {time: "00:01", lyric: "电影《陪安东尼度过漫长岁月》主题曲"},
@@ -379,5 +379,87 @@ var database = [
             {time: "03:46", lyric: ""}
         ]
 
+    },
+    {
+        id: "7",
+        songs: "只要平凡",
+        name: "张杰&张碧晨",
+        src: "music/只要平凡.mp3",
+        alltime: "03:53",
+        photo: "../img/zhiyao.png",
+        lyrics: [
+            {time: "00:00", lyric: "张杰、张碧晨 - 只要平凡"},
+            {time: "00:01", lyric: "电影《我不是药神》主题曲"},
+            {time: "00:03", lyric: ""},
+            {time: "00:04", lyric: "也许很远或是昨天"},
+            {time: "00:08", lyric: "在这里或在对岸"},
+            {time: "00:12", lyric: "长路辗转离合悲欢"},
+            {time: "00:16", lyric: "人聚又人散"},
+            {time: "00:20", lyric: "放过对错才知答案"},
+            {time: "00:24", lyric: "活着的勇敢"},
+            {time: "00:28", lyric: "没有神的光环"},
+            {time: "00:32", lyric: "你我生而平凡"},
+            {time: "00:37", lyric: "在心碎中认清遗憾"},
+            {time: "00:41", lyric: "生命漫长也短暂"},
+            {time: "00:45", lyric: "跳动心脏长出藤蔓"},
+            {time: "00:49", lyric: "愿为险而战"},
+            {time: "00:53", lyric: "跌入灰暗坠入深渊"},
+            {time: "00:57", lyric: "沾满泥土的脸"},
+            {time: "01:01", lyric: "没有神的光环"},
+            {time: "01:05", lyric: "握紧手中的平凡"},
+            {time: "01:10", lyric: "此心此生无憾"},
+            {time: "01:14", lyric: "生命的火已点燃"},
+            {time: "01:17", lyric: ""},
+            {time: "01:20", lyric: "有一天也许会走远"},
+            {time: "01:24", lyric: "也许还能再相见"},
+            {time: "01:29", lyric: "无论在人群在天边"},
+            {time: "01:32", lyric: "让我再看清你的脸"},
+            {time: "01:37", lyric: "任泪水铺满了双眼"},
+            {time: "01:41", lyric: "虽无言泪满面"},
+            {time: "01:45", lyric: "不要神的光环"},
+            {time: "01:49", lyric: "只要你的平凡"},
+            {time: "02:36", lyric: ""},
+            {time: "02:39", lyric: "在心碎中认清遗憾"},
+            {time: "02:43", lyric: "生命漫长也短暂"},
+            {time: "02:47", lyric: "跳动心脏长出藤蔓"},
+            {time: "02:51", lyric: "愿为险而战"},
+            {time: "02:55", lyric: "跌入灰暗坠入深渊"},
+            {time: "02:59", lyric: "沾满泥土的脸"},
+            {time: "03:04", lyric: "没有神的光环"},
+            {time: "03:07", lyric: "握紧手中的平凡"},
+            {time: "03:12", lyric: "有一天也许会走远"},
+            {time: "03:16", lyric: "也许还能再相见"},
+            {time: "03:20", lyric: "无论在人群在天边"},
+            {time: "03:24", lyric: "让我再看清你的脸"},
+            {time: "03:28", lyric: "任泪水铺满了双眼"},
+            {time: "03:32", lyric: "虽无言泪满面"},
+            {time: "03:37", lyric: "不要神的光环"},
+            {time: "03:40", lyric: "只要你的平凡"},
+            {time: "03:45", lyric: "此心此生无憾"},
+            {time: "03:49", lyric: "生命的火已点燃"},
+            {time: "03:53", lyric: ""}, 
+        ]
+    },
+    {
+        id: "8",
+        songs: "梦中的婚礼(钢琴曲)",
+        name: "Richard Clayderman",
+        src: "music/梦中的婚礼.mp3",
+        alltime: "02:42",
+        photo: "../img/chun1.png",
+        lyrics: [
+            {time: '00:00',lyric:'纯音乐，请欣赏' }
+        ]
+    },
+    {
+        id: "9",
+        songs: "菊次郎的夏天",
+        name: "K_Williams",
+        src: "music/菊次郎的夏天.mp3",
+        alltime: "03:20",
+        photo: "../img/chun2.png",
+        lyrics: [
+            {time: '00:00',lyric:'纯音乐，请欣赏' }
+        ]
     }
 ]

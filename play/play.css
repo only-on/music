@@ -17,6 +17,14 @@ html,body{
 body{
 	/* background: url('img/music.jpg') no-repeat center/cover; */
 	background-color: #fafafa;
+	position: relative;
+}
+body i{
+	font-size: 30px !important;
+	position: absolute;
+	right: 50px;
+	top: 20px;
+	cursor: pointer;
 }
 main{
 	width: 600px;
