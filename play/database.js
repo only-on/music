@@ -326,8 +326,19 @@ var database = [
         {time: "03:40", lyric: ""}
     ]
     },
-    {        
+    {
         id: "6",
+        songs: "追光者(钢琴曲)",
+        name: "昼夜",
+        src: "music/追光者.mp3",
+        alltime: "03:54",
+        photo: "../img/chun3.png",
+        lyrics: [
+            {time: '00:00',lyric:'纯音乐，请欣赏' }
+        ]
+    },
+    {        
+        id: "10",
         songs: "陪你度过漫长岁月",
         name: "陈奕迅",
         src: "music/陪你度过漫长岁月.mp3",
