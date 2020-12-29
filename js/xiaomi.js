@@ -50,26 +50,26 @@ window.onload=function(){
             navr.style.borderLeft='none';
             navblock.style.display='none';
       }
-      	let abig=document.getElementsByClassName('aside-big')[0];
-      	let alis=abig.getElementsByClassName('aside-big1');
-           console.log(alis);
+      	// let abig=document.getElementsByClassName('aside-big')[0];
+      	// let alis=abig.getElementsByClassName('aside-big1');
+        //    console.log(alis);
       	
-            for(var i=0;i<alis.length;i++){
-            	   alis[i].index=i;
-            	   // console.log(i);
-                alis[i].onmouseover=function(){
-                	let bl=this.getElementsByClassName('item');
-                	bl[0].classList.toggle('xianshi');
+        //     for(var i=0;i<alis.length;i++){
+        //     	   alis[i].index=i;
+        //     	   // console.log(i);
+        //         alis[i].onmouseover=function(){
+        //         	let bl=this.getElementsByClassName('item');
+        //         	bl[0].classList.toggle('xianshi');
                 	
-                }
+        //         }
 
-                alis[i].onmouseout=function(){
-                	let bl=this.getElementsByClassName('item');
-                	bl[0].classList.toggle('xianshi');
+        //         alis[i].onmouseout=function(){
+        //         	let bl=this.getElementsByClassName('item');
+        //         	bl[0].classList.toggle('xianshi');
                 	  
                 	
-                }
-      	}
+        //         }
+      	// }
 
 
       	let lunbo=document.getElementsByClassName('lunbo')[0];
