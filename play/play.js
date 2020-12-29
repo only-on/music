@@ -21,7 +21,6 @@ window.onload=function(){
 	let flag=true;
 	let i= window.location.search ? window.location.search.slice(-1) - 0 : 0;
 	let aTag = document.querySelector('.right a');
-	let downloadBtn = document.querySelector('.icon-download');
 	sc.onclick=function(){
 		if(flag){
 			sc.style.color='red';
@@ -31,10 +30,6 @@ window.onload=function(){
 			flag=true;
 		}		
 	}	
-	// 下载
-	downloadBtn.onclick = function () {
-		
-	}
 	pause.onclick=function(){
 		if(audio.paused){
 			audio.play();
