@@ -2173,6 +2173,12 @@ main .foot-mtop li a:hover{
 	/* float: left; */
 	
 }
+.foot-mbottom a:hover{
+	color: blue;
+}
+.bsb:hover{
+	color: blue;
+}
 .foot-right{
 	width:100%;
 	height: 29px;

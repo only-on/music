@@ -1101,6 +1101,7 @@ main{
 .contentitem:hover .controlprev{
 	opacity: 1;
 }
+
 .xmcontrolsblock .controlnext{
 	right: 0;
 	position: absolute;
@@ -1123,7 +1124,7 @@ main{
 	width: 100%;
 	height: 393px;
 	background: #F5F5F5;
-	padding-top: 40px;
+	/* padding-top: 40px; */
 }
 .homevideoboxson{
 	width: 1226px;
@@ -1348,6 +1349,14 @@ main{
 .colcontact a i{
 	font-style: normal;
 	color: #ff6700;
+}
+
+.yiru a{
+	color:#555;
+	font-size: 15px;
+}
+ .yiru a:hover{
+	color:#ff6700;
 }
 .colcontact a:hover{
 	background: #ff6700;

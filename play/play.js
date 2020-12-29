@@ -1,9 +1,4 @@
-/*
-* @Author: Administrator
-* @Date:   2017-08-30 18:00:28
-* @Last Modified by:   Administrator
-* @Last Modified time: 2017-08-31 23:47:29
-*/
+
 window.onload=function(){
 	let song=document.querySelector('.song');
 	let singer=document.querySelector('.singer');
