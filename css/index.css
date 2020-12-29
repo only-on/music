@@ -1140,11 +1140,17 @@ main{
 }
 .asssss{
 	text-align: center;
-	line-height: 343px;
+	line-height: 250px;
 	font-size: 25px;
 }
-.abax{
+.asssssa{
 	text-align: center;
+	line-height: 150px;
+	font-size: 25px;
+	color:#3A3F3F;
+}
+.abax{
+	text-align: left;
 	font-size: 15px;
 }
 .more{
@@ -1246,7 +1252,7 @@ main{
 }
 .sitefooter{
 	width: 1226px;
-	height: 272px;
+	/* height: 272px; */
 	margin: 0 auto;
 }
 .footerservice{
@@ -1300,6 +1306,9 @@ main{
 	line-height: 1.25;
 	color: #424242;
 }
+.collinks a{
+	color: #424242;
+}
 .collinks dd{
 	margin: 10px 0 0;
 	font-size: 12px;
@@ -1310,8 +1319,7 @@ main{
 	color: #ff6700;
 }
 .colcontact{
-	float: right;
-    width: 251px;
+	
     height: 112px;
     border-left: 1px solid #e0e0e0;
     text-align: center;

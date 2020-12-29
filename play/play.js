@@ -20,6 +20,8 @@ window.onload=function(){
 	let sc=document.querySelector('.icon-aixin1');
 	let flag=true;
 	let i= window.location.search ? window.location.search.slice(-1) - 0 : 0;
+	let aTag = document.querySelector('.right a');
+	let downloadBtn = document.querySelector('.icon-download');
 	sc.onclick=function(){
 		if(flag){
 			sc.style.color='red';
@@ -29,6 +31,10 @@ window.onload=function(){
 			flag=true;
 		}		
 	}	
+	// 下载
+	downloadBtn.onclick = function () {
+		
+	}
 	pause.onclick=function(){
 		if(audio.paused){
 			audio.play();
@@ -116,6 +122,8 @@ window.onload=function(){
 		song.innerText=data.songs;
 		singer.innerText=data.name;
 		audio.src=data.src;
+		// 下载
+		aTag.href = data.src;
 		img.src=data.photo;
 		song1.innerText=`${data.songs} - ${data.name}`;
 		current.innerText='00:00';

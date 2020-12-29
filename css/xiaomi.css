@@ -492,9 +492,9 @@ aside{
 }
 .aside-big .aside-big1{
 	width: 100%;
-	height: 42px;
+	height: 66px;
 	font-size: 12px;
-	line-height: 42px;
+	line-height: 66px;
 	/* background: green;  */
 }
 .aside-big .aside-big1 a{
@@ -562,7 +562,7 @@ aside{
 	display: block;
 }
 .item-left{
-    width: 40px;
+    /* width: 40px; */
     height: 40px;
     margin-right: 12px;
     float: left;
@@ -608,10 +608,7 @@ aside{
 	height: 10px;
 	/* background: red; */
 	position: absolute;
-	left: 0;
-	right: 0;
-	margin-left: auto;
-	margin-right: auto;
+	right: 50px;
 	bottom: 25px; 
 	z-index: 999;
 }
@@ -647,7 +644,7 @@ aside{
 	/* background: red; */
 	position: absolute;
 	top: 50%;
-	left: 0;
+	left: 234px;
 	margin-top: -35px;
 	font-size: 40px !important;
 	color: #dfdfdf;
@@ -2140,6 +2137,10 @@ footer{
 	/* background: blue; */
 	margin-top: 30px;
 	float: left;
+	display: block;
+}
+.foot-mtopa{
+	height: 60px;
 }
 .foot-mtop li{
      font-size: 12px;
@@ -2162,21 +2163,25 @@ main .foot-mtop li a:hover{
 	color: #ff6709;
 }
 .foot-mbottom{
-	width: 598px;
+	width: auto;
 	height: 30px;
 	/* background: red; */
 	margin-top: 8px;
 	font-size: 10px;
 	text-align: left;
 	color: #b0b0b0;
-	float: left;
+	/* float: left; */
+	
 }
 .foot-right{
-	width: 365px;
+	width:100%;
 	height: 29px;
 	/* background: green; */
 	margin-top: 33px;
-	float: right;
+	/* float: right; */
+	color: #b0b0b0;
+	font-size: 15px;
+	text-align: center;
 }
 .foot-right li{
 	width: 84px;
