@@ -14,7 +14,7 @@ window.onload=function(){
 	let song1=document.querySelector('.song1');
 	let sc=document.querySelector('.icon-aixin1');
 	let flag=true;
-	let i= window.location.search ? window.location.search.slice(-1) - 0 : 0;
+	let i= window.location.search ? window.location.search.slice(window.location.search.indexOf('=')+1) - 0 : 0;
 	let aTag = document.querySelector('.right a');
 	sc.onclick=function(){
 		if(flag){
