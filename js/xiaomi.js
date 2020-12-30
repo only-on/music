@@ -48,7 +48,9 @@ window.onload=function(){
             navl.style.border='';
             navr.style.border='';
             navr.style.borderLeft='none';
-            navblock.style.display='none';
+            setTimeout(() => {
+                navblock.style.display='none';
+            }, 400);
       }
       	let abig=document.getElementsByClassName('aside-big')[0];
       	let alis=abig.getElementsByClassName('aside-big1');
