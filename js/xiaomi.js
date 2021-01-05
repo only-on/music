@@ -42,15 +42,14 @@ window.onload=function(){
             navblock.style.display='block'
 
       }
-      navl.onblur=function(){
+      navl.onblur=function(e){
            navtext1.style.display='block';
             navtext2.style.display='block';
             navl.style.border='';
             navr.style.border='';
             navr.style.borderLeft='none';
-            setTimeout(() => {
-                navblock.style.display='none';
-            }, 400);
+            navblock.style.display='none';
+            
       }
       	let abig=document.getElementsByClassName('aside-big')[0];
       	let alis=abig.getElementsByClassName('aside-big1');
